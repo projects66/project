@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Quiz</title>
+  <link rel="stylesheet" type="text/css" href="project.css">
+  <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+
+  <body>
+    <center><h2 class="quizHeader">Take a Quiz!</h2></center>
+
+    <center><table style="width:583px">
+      <tr>
+        <td>
+          <div>
+   <p1 class="question">Who's the first president of morrocco?</p1>
+
+   <ul>
+     <input class="answer" type="radio" name="q1" value="1">
+    <label id="correctString1">Mbarek Bekkay</label>
+     <br>
+    <input class="answer" type="radio" name="q1" value="0">
+     <label>Cheb khaled</label>
+     <br>
+     <input class="answer" type="radio" name="q1" value="0">
+   <label>Hussain mubarak</label>
+    <br>
+   <input class="answer" type="radio" name="q1" value="0">
+   <label>Moncef marzouki</label>
+     </ul>
+     </div>
+        </td>
+        <td>
+          <div>
+            <p1 class="question">Is the cat considered a pet?</p1>
+
+   <ul>
+   <input class="answer" type="radio" name="q2" value="0">
+            <label>No</label>
+     <br>
+  <input class="answer" type="radio" name="q2" value="0">
+ <label>He's not a pet but humans made him one...</label>
+   <br>
+<input class="answer" type="radio" name="q2" value="1">
+  <label id="correctString2">Yes!</label>
+    <br>
+    <input class="answer" type="radio" name="q2" value="0">
+    <label>Yes and no</label>
+     </ul>
+     </div>
+     </td>
+     </tr>
+     <tr>
+       <td>
+         <div>
+       <p1 class="question">Who's the richest person in the world?</p1>
+
+     <ul>
+    <input class="answer" type="radio" name="q3" value="0">
+  <label>Jeff bezoz</label>
+  <br>
+    <input class="answer" type="radio" name="q3" value="1">
+   <label id="correctString3"> Karam </label>
+   <br>
+   <input class="answer" type="radio" name="q3" value="0">
+     <label>Elon musk </label>
+       <br>
+      <input class="answer" type="radio" name="q3" value="0">
+       <label>Islam boudhina</label>
+       </ul>
+       </div>
+     </td>
+     <td>
+     <div>
+<p1 class="question">Which is the vegetable that is considered fruit?</p1>
+
+ <ul>
+     <input class="answer" type="radio" name="q4" value="0">
+     <label>Watermelon</label>
+      <br>
+     <input class="answer" type="radio" name="q4" value="1">
+      <label id="correctString4">tomato</label>
+       <br>
+      <input class="answer" type="radio" name="q4" value="0">
+    <label>Potato</label>
+   <br>
+   <input class="answer" type="radio" name="q4" value="0">
+  <label>Banana</label>
+ </ul>
+  </div>
+ </td>
+</tr>
+ </table></center>
+  <br />
+    <div class="submitter">
+      <input class="quizSubmit" id="submitButton" onClick="submitQuiz()" type="submit" value="play" />
+      <button class ="reset" >reset</button>
+    </div>
+
+
+    <div class="quizAnswers" id="correctAnswer1"></div>
+    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+
+
+    <div>
+      <h2 class="quizScore" id="userScore"></h2>
+    </div>
+    </div>
+
+  </body>
+
+  <script type="text/javascript" src="project.js"></script>
+
+</body>
+
+</html>
